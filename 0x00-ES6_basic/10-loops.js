@@ -4,6 +4,6 @@ export default function appendToEachArrayValue(array, appendString) {
       let newApnd = appendString + idx;
       newArr.push(newApnd);
     }
-  
+
     return newArr;
   }

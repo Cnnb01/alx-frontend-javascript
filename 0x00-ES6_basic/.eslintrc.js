@@ -14,6 +14,8 @@ module.exports = {
         sourceType: 'module',
     }, plugins: ['jest'],
     rules: {
+        "linebreak-style": ["error", "unix"],
+        "no-trailing-spaces": "error",
         'no-console': 'off',
         'no-shadow': 'off',
         'no-restricted-syntax': [
