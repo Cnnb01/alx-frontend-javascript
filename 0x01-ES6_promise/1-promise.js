@@ -7,12 +7,8 @@ function getFullResponseFromAPI(success){
             });
         }else{
             reject(Error("The fake API is not working currently"))
-        }        
+        }
     });
 }
-// getFullResponseFromAPI().then((response)=>{
-//     console.log(response)
-// }).catch((error)=>{
-//     console.error(error)
-// });
+
 export default getFullResponseFromAPI;

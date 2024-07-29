@@ -9,7 +9,7 @@ function handleResponseFromAPI(promise){
         } else{
             reject(Error(" "))
         }
-        
+
     });
 }
 export default handleResponseFromAPI;

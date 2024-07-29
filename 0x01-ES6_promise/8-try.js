@@ -4,7 +4,7 @@ export default function divideFunction(numerator, denominator) {
             throw new Error();
         } else{
             console.log (numerator/denominator);
-        }    
+        }
     } catch (error) {
         throw Error("cannot divide by 0");
     }

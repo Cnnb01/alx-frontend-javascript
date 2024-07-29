@@ -3,6 +3,6 @@ function signUpUser(firstName, lastName) {
     firstName: firstName,
     lastName: lastName
 });
-}
+};
 
 export default signUpUser;
