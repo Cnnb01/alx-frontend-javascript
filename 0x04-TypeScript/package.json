@@ -1,0 +1,17 @@
+{
+    "scripts": {
+     "lint": "npx eslint",
+     "check-lint": "lint [0-9]*.js",
+     "dev": "npx babel-node",
+     "test": "jest",
+     "full-test": "npx eslint [0-9]*.js && jest"
+    },
+    "devDependencies": {
+  "typescript": "^5.2.2",
+  "ts-loader": "^9.4.0",
+  "fork-ts-checker-webpack-plugin": "^9.0.0",
+  "html-webpack-plugin": "^5.5.0",
+  "clean-webpack-plugin": "^4.0.0"
+}
+
+   }
